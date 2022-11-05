@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body style="background-image: url ('ponniyin selvan.jpeg');">
+    <section class="services" id="services">
+        <div class="content">
+          <div class="title"><span>My Projects</span></div>
+          <div class="boxes">
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Personsal Portfolio</div>
+            <p></p>
+            <button id="Personal" onclick="Personal()">Click</button>
+          </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-film" aria-hidden="true"></i>
+            </div>
+            <div class="topic">Netflix Clone</div>
+            <p>Netflix Clone made with HTML ans CSS</p>
+            <button id="Netflix" onclick="redirect()">Click</button>
+          </div>
+        </div>
+        </div>
+      </section>    
+      <script>
+        function Personal(){
+          window.location.href ='PERSONAL PORTFOLIO/main.html';
+        }
+        function redirect(){
+          window.location.href= 'Netflix/Netflix.html';
+        }
+       
+      </script>
+    </body>
+</html>
